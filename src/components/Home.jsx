@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+
 const Home = () => {
     const [imageName, setImageName] = useState("");
     const [imageFile, setImageFile] = useState(null);
@@ -8,7 +9,7 @@ const Home = () => {
         const file = event.target.files[0];
         if (file) {
             setImageFile(file);
-            setImageName(file.name); // Automatically set the image name
+            setImageName(file.name);
         }
     };
 
