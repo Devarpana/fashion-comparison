@@ -1,7 +1,11 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 
-const TextSearch = () => {
+const TextSearch = ({x, y}) => {
     const [searchText, setSearchText] = useState("");
+
+    useEffect(() => {
+        console.log("x:", x, "y:", y);
+    }, [x, y]);
 
     const handleTextChange = (event) => {
         setSearchText(event.target.value);
@@ -17,7 +21,7 @@ const TextSearch = () => {
     };
 
     return (
-        <div>
+        <div className="flex flex-col items-center p-6">
             <div>
                 <label
                     htmlFor="textSearch"
@@ -34,7 +38,9 @@ const TextSearch = () => {
                 />
             </div>
             <button
-                className="border-gray-700 bg-gray-500 hover:bg-gray-700 text-white h-8 px-2 rounded-md"
+                className={`border-gray-700 bg-gray-500 hover:bg-gray-700 text-white h-8 px-2 rounded-md ${
+                    y === 0 ? "hidden" : ""
+                }`}
                 onClick={handleSearch}
             >
                 Search
