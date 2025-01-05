@@ -11,17 +11,25 @@ const TextSearch = ({x, y}) => {
         setSearchText(event.target.value);
     };
 
-    const handleSearch = () => {
+    const handleSearch = async () => {
         if (searchText) {
-            const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(
+            const searchUrl = `https://api.example.com/search?q=${encodeURIComponent(
                 searchText
             )}`;
-            window.open(googleSearchUrl, "_blank");
+            console.log("Search URL:", searchUrl);
+
+            try {
+                const response = await fetch(searchUrl);
+                const data = await response.json();
+                console.log("Search Data:", data);
+            } catch (error) {
+                console.error("Error fetching search data:", error);
+            }
         }
     };
 
     return (
-        <div className="flex flex-col items-center p-6">
+        <div className="flex flex-col items-center p-6 shadow-lg rounded-lg border border-gray-300">
             <div>
                 <label
                     htmlFor="textSearch"
