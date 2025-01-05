@@ -1,52 +1,54 @@
 import React, {useState} from "react";
-
+import ImageSearch from "./ImageSearch";
+import TextSearch from "./TextSearch";
 
 const Home = () => {
-    const [imageName, setImageName] = useState("");
-    const [imageFile, setImageFile] = useState(null);
+    // State to track which search component is visible
+    const [visibleComponent, setVisibleComponent] = useState("both");
+    let x, y;
 
-    const handleImageUpload = (event) => {
-        const file = event.target.files[0];
-        if (file) {
-            setImageFile(file);
-            setImageName(file.name);
-        }
+    const handleImageClick = () => {
+        setVisibleComponent("image");
+        x = 1;
+    };
+
+    const handleTextClick = () => {
+        setVisibleComponent("text");
+        y = 1;
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-white">
+        <div className="flex justify-center items-center min-h-screen bg-white flex-col">
             <div className="flex flex-col items-center p-6 shadow-lg rounded-lg border border-gray-300">
-                <div>
-                    <label
-                        htmlFor="imageUpload"
-                        className="block mb-2 text-lg font-semibold"
+                {/* Conditionally render ImageSearch */}
+                {visibleComponent !== "text" && (
+                    <div
+                        onClick={handleImageClick}
+                        className="p-8 cursor-pointer"
                     >
-                        Upload your image:
-                    </label>
-                    <input
-                        type="file"
-                        id="imageUpload"
-                        accept="image/*"
-                        onChange={handleImageUpload}
-                        className="border border-gray-300 rounded-lg p-4 mb-4 w-full max-w-md cursor-pointer hover:bg-gray-100 transition duration-200"
-                    />
-                </div>
-                <div>
-                    <label
-                        htmlFor="imageName"
-                        className="block mb-2 text-lg font-semibold"
+                        <ImageSearch />
+                    </div>
+                )}
+
+                {/* Conditionally render TextSearch */}
+                {visibleComponent !== "image" && (
+                    <div
+                        onClick={handleTextClick}
+                        className="p-8 cursor-pointer"
                     >
-                        Insert the name of the image:
-                    </label>
-                    <input
-                        type="text"
-                        id="imageName"
-                        value={imageName}
-                        onChange={(e) => setImageName(e.target.value)}
-                        placeholder="Enter image name"
-                        className="border border-gray-300 rounded-lg p-4 mb-4 w-full max-w-md"
-                    />
-                </div>
+                        <TextSearch />
+                    </div>
+                )}
+
+                {/* Optional: Button to show both components again */}
+                {visibleComponent !== "both" && (
+                    <button
+                        onClick={() => setVisibleComponent("both")}
+                        className="border-gray-700 bg-gray-500 hover:bg-gray-700 text-white h-8 px-2 rounded-md"
+                    >
+                        Show Both
+                    </button>
+                )}
             </div>
         </div>
     );
