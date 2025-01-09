@@ -185,33 +185,13 @@
             }
         ],
         "list": {
-            "total_fat": [
-                "0 g",
-                "0%"
-            ],
-            "cholesterol": [
-                "0 mg",
-                "0%"
-            ],
-            "sodium": [
-                "5 mg",
-                "0%"
-            ],
-            "potassium": [
-                "116 mg",
-                "3%"
-            ],
-            "total_carbohydrate": [
-                "0 g",
-                "0%"
-            ],
-            "protein": [
-                "0.3 g",
-                "0%"
-            ],
-            "caffeine": [
-                "95 mg"
-            ]
+            "total_fat": ["0 g", "0%"],
+            "cholesterol": ["0 mg", "0%"],
+            "sodium": ["5 mg", "0%"],
+            "potassium": ["116 mg", "3%"],
+            "total_carbohydrate": ["0 g", "0%"],
+            "protein": ["0.3 g", "0%"],
+            "caffeine": ["95 mg"]
         }
     },
     "immersive_products": [
@@ -285,9 +265,7 @@
             "original_price": "$5",
             "extracted_original_price": 5,
             "returns": "Free 30-day returns",
-            "extensions": [
-                "9% OFF"
-            ],
+            "extensions": ["9% OFF"],
             "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNjc4MTkzNTUzNzgzNzU4MDUiLCJpbWFnZURvY2lkIjoiMTM2NDgyOTYzOTk5NDM4ODIxOCIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUifQ==",
             "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNjc4MTkzNTUzNzgzNzU4MDUiLCJpbWFnZURvY2lkIjoiMTM2NDgyOTYzOTk5NDM4ODIxOCIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUifQ%3D%3D"
         },
@@ -398,11 +376,7 @@
             "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4ef63a94d672a1dde7546d9830528c60d8.jpeg",
             "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e42d9319cd53df40fffce736a710fa39d.png",
             "snippet": "Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, ...",
-            "snippet_highlighted_words": [
-                "Coffee",
-                "coffee",
-                "coffee"
-            ],
+            "snippet_highlighted_words": ["Coffee", "coffee", "coffee"],
             "sitelinks": {
                 "inline": [
                     {
@@ -434,10 +408,7 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMDn6K1GhcrlF3Aupt_F9Tc28pnGRn0l3ACQVNiEXIIcvIbC01HV8&usqp=CAE&s",
             "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e12ad3d6b3ceb56ce45f0913189918b2a.png",
             "snippet": "Since 1966, Peet's Coffee has sourced and offered superior coffees and teas and adhering to strict high-quality and taste standards. Shop today.",
-            "snippet_highlighted_words": [
-                "Coffee",
-                "coffees"
-            ],
+            "snippet_highlighted_words": ["Coffee", "coffees"],
             "source": "Peet's Coffee"
         },
         {
@@ -449,9 +420,7 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi72fAfAv04i5K-BTUHudTQKFzEkyD86JfKiMr4rcM-KHYd1st7wAt&usqp=CAE&s",
             "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e83c41653465c394647ae050350906525.png",
             "snippet": "More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.",
-            "snippet_highlighted_words": [
-                "coffee"
-            ],
+            "snippet_highlighted_words": ["coffee"],
             "source": "Starbucks"
         },
         {
@@ -462,9 +431,7 @@
             "displayed_link": "https://www.ncausa.org › About Coffee",
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9mGEiLrFPJTDgxbtySMTOc3UNvBpZhZ7IzhkzBRVYS-CBxbj9EVa&usqp=CAE&s",
             "snippet": "Coffee traces its origin to a genus of plants known as Coffea. Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs.",
-            "snippet_highlighted_words": [
-                "Coffee"
-            ],
+            "snippet_highlighted_words": ["Coffee"],
             "source": "National Coffee Association"
         },
         {
@@ -476,9 +443,7 @@
             "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82mRFMoG2kHH8U8rYpGIpHPaCGPI8fPn9I2UM2Lhlfk6omXD5WMcX&usqp=CAE&s",
             "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e6c30618b688bee9b6f8898a85c925509.png",
             "snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite coffee roasters or beans.",
-            "snippet_highlighted_words": [
-                "coffee"
-            ],
+            "snippet_highlighted_words": ["coffee"],
             "sitelinks": {
                 "list": [
                     {
@@ -526,9 +491,7 @@
                     "detected_extensions": {
                         "free_day_delivery": "1–4"
                     },
-                    "extensions": [
-                        "Free 1–4 day delivery"
-                    ]
+                    "extensions": ["Free 1–4 day delivery"]
                 }
             },
             "source": "Counter Culture Coffee"
@@ -544,10 +507,7 @@
             "author": "Free delivery over $50",
             "cited_by": "‎30-day returns",
             "snippet": "Peace Coffee has been proudly roasting and pedaling outstanding fair trade and organic coffee in the Twin Cities since 1996. Certified B Corp!",
-            "snippet_highlighted_words": [
-                "Coffee",
-                "coffee"
-            ],
+            "snippet_highlighted_words": ["Coffee", "coffee"],
             "sitelinks": {
                 "inline": [
                     {
@@ -575,10 +535,7 @@
                         "currency": "$",
                         "day_returns": 30
                     },
-                    "extensions": [
-                        "Free delivery over $50",
-                        "30-day returns"
-                    ]
+                    "extensions": ["Free delivery over $50", "30-day returns"]
                 }
             },
             "source": "Peace Coffee"
@@ -625,9 +582,7 @@
                     "detected_extensions": {
                         "day_delivery": "4–5"
                     },
-                    "extensions": [
-                        "4–5 day delivery"
-                    ]
+                    "extensions": ["4–5 day delivery"]
                 }
             },
             "source": "Kaffe Products"
@@ -640,9 +595,7 @@
             "displayed_link": "https://coffeebean.com",
             "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4ed249e4332961fe98292e4dbc2d2f2aeb.png",
             "snippet": "Born and brewed in Southern California since 1963, The Coffee Bean & Tea Leaf® is passionate about connecting loyal customers with carefully handcrafted ...",
-            "snippet_highlighted_words": [
-                "Coffee"
-            ],
+            "snippet_highlighted_words": ["Coffee"],
             "sitelinks": {
                 "inline": [
                     {
@@ -891,31 +844,31 @@
             "link": "https://www.google.com/search?q=black+coffee&shoprs=GAEqBmNvZmZlZTIXCAESBUJsYWNrOgwI2Iz1ARDlivUBMAtYt8sfYAE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAp6BAgfEHE",
             "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=black+coffee"
         },
-		{
-    "query": "Pod",
-    "link": "https://www.google.com/search?q=pod+coffee&shoprs=GAEqBmNvZmZlZTITCAESA1BvZDoKCPucZRD8nGUwA1i3yx9gAQ&sa=X&ved=2ahUK",
-    "metadata": {
-        "id": "677d56040b682f570f5b4d29",
-        "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.json",
-        "created_at": "2025-01-07 16:27:48 UTC",
-        "processed_at": "2025-01-07 16:27:48 UTC",
-        "google_url": "https://www.google.com/search?q=coffee&oq=coffee&uule=w+CAIQICILQXNzYW0sSW5kaWE&sourceid=chrome&ie=UTF-8",
-        "raw_html_file": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.html",
-        "total_time_taken": 3.38
-    },
-    "search_parameters": {
-        "engine": "google",
-        "q": "coffee",
-        "location_requested": "Assam, India",
-        "location_used": "Assam,India",
-        "google_domain": "google.com",
-        "device": "desktop"
-    },
-    "search_information": {
-        "query_displayed": "coffee",
-        "total_results": 123456
-    }
-}
+        {
+            "query": "Pod",
+            "link": "https://www.google.com/search?q=pod+coffee&shoprs=GAEqBmNvZmZlZTITCAESA1BvZDoKCPucZRD8nGUwA1i3yx9gAQ&sa=X&ved=2ahUK",
+            "metadata": {
+                "id": "677d56040b682f570f5b4d29",
+                "status": "Success",
+                "json_endpoint": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.json",
+                "created_at": "2025-01-07 16:27:48 UTC",
+                "processed_at": "2025-01-07 16:27:48 UTC",
+                "google_url": "https://www.google.com/search?q=coffee&oq=coffee&uule=w+CAIQICILQXNzYW0sSW5kaWE&sourceid=chrome&ie=UTF-8",
+                "raw_html_file": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.html",
+                "total_time_taken": 3.38
+            },
+            "search_parameters": {
+                "engine": "google",
+                "q": "coffee",
+                "location_requested": "Assam, India",
+                "location_used": "Assam,India",
+                "google_domain": "google.com",
+                "device": "desktop"
+            },
+            "search_information": {
+                "query_displayed": "coffee",
+                "total_results": 123456
+            }
+        }
     ]
 }
