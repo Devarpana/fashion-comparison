@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Fashion Comparison",
+    "name": "Alstylist",
     "version": "1.0.1",
     "description": "A Chrome extension helps you to buy product which is pocket friendly.",
     "action": {

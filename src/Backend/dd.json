@@ -1,0 +1,921 @@
+{
+    "search_metadata": {
+        "id": "677d56040b682f570f5b4d29",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.json",
+        "created_at": "2025-01-07 16:27:48 UTC",
+        "processed_at": "2025-01-07 16:27:48 UTC",
+        "google_url": "https://www.google.com/search?q=coffee&oq=coffee&uule=w+CAIQICILQXNzYW0sSW5kaWE&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.html",
+        "total_time_taken": 3.38
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "coffee",
+        "location_requested": "Assam, India",
+        "location_used": "Assam,India",
+        "google_domain": "google.com",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "coffee",
+        "total_results": 3380000000,
+        "time_taken_displayed": 0.36,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "shopping_results": [
+        {
+            "position": 1,
+            "block_position": "right",
+            "title": "Premium Classic Strong Coffee 200 GM Jar | Makes 100 Cups",
+            "price": "₹299",
+            "extracted_price": 299,
+            "link": "https://www.bevzilla.co/products/premium-classic-strong-coffee-200-gm-jar-makes-100-cups?variant=43813723504876&currency=INR&utm_source=google&utm_medium=cpc&utm_campaign=google%2Bshopping",
+            "source": "Bevzilla.co",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/4c458ed107f96308ebcb2a696aa812ad4211b6f7435addfe190016eb0556dbe6.webp"
+        },
+        {
+            "position": 2,
+            "block_position": "right",
+            "title": "60 Sachets Assorted Coffee Powder Box",
+            "price": "₹219",
+            "extracted_price": 219,
+            "link": "https://www.bevzilla.co/products/assorted-coffee-powder-box-60-sachets?variant=43737505333484&currency=INR&utm_source=google&utm_medium=cpc&utm_campaign=google%2Bshopping",
+            "source": "Bevzilla.co",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/4c458ed107f96308ebcb2a696aa812ad00943da99d32664b6d7c7600fbbcfe17.webp"
+        },
+        {
+            "position": 3,
+            "block_position": "right",
+            "title": "Cafe Coffee Kit",
+            "price": "₹269",
+            "extracted_price": 269,
+            "link": "https://www.bevzilla.co/products/bevzilla-cafe-coffee-kit?variant=43820199969004&currency=INR&utm_source=google&utm_medium=cpc&utm_campaign=google%2Bshopping",
+            "source": "Bevzilla.co",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/4c458ed107f96308ebcb2a696aa812ad40ff6d97a86e52d313395a0414011c9a.webp"
+        }
+    ],
+    "local_map": {
+        "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&tbm=lcl&q=coffee&rflfq=1&num=10&uule=w+CAIQICILQXNzYW0sSW5kaWE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QtgN6BAhIEAM",
+        "image": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/04ed5702cbe9c2eb241fa282269760fc.png",
+        "gps_coordinates": {
+            "latitude": 26.2797429,
+            "longitude": 92.8120321
+        }
+    },
+    "local_results": {
+        "places": [
+            {
+                "position": 1,
+                "lsig": "AB86z5W--PPT2uT2mILUFkVP1DH0",
+                "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/d3c075ba8d6f46de89fd6a55af0d60778105c2fd786c82f434bc8e8be3feaeec40f790231b56f5c3.webp",
+                "title": "Samsuddin Ahmed",
+                "reviews_original": "No reviews",
+                "type": "Coffee shop",
+                "address": "Doom dooma, Assam, India",
+                "place_id": "5678189688220532926",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&ludocid=5678189688220532926&q=coffee",
+                "gps_coordinates": {
+                    "latitude": 26.200603,
+                    "longitude": 92.93758
+                }
+            },
+            {
+                "position": 2,
+                "rating": 5,
+                "reviews_original": "(13)",
+                "reviews": 13,
+                "lsig": "AB86z5VATVZYhgGRWRorm1kZ9BBi",
+                "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/d3c075ba8d6f46de89fd6a55af0d6077748b33c76c0e9bddc2193d57796cebd330bf64c79064d888.jpeg",
+                "title": "Vertex cafe",
+                "type": "Coffee shop",
+                "address": "Nagaon, Assam, India",
+                "place_id": "1517699056280350646",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&ludocid=1517699056280350646&q=coffee",
+                "gps_coordinates": {
+                    "latitude": 26.358883,
+                    "longitude": 92.686485
+                }
+            },
+            {
+                "position": 3,
+                "rating": 3.7,
+                "reviews_original": "(47)",
+                "reviews": 47,
+                "description": "\"A little bit pricey but the ambience and the coffee is to die for.\"",
+                "lsig": "AB86z5WMnumW7ZPSGUtpwuU8GHe-",
+                "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/d3c075ba8d6f46de89fd6a55af0d6077155bfe00aef9c23fe259b10ed8e90af30e0c2764a86f0a3d.jpeg",
+                "title": "Barista Coffee Nagaon",
+                "type": "Cafe",
+                "address": "Nagaon, Assam, India",
+                "hours": "Closes soon ⋅ 10 PM",
+                "place_id": "8560819786490294549",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&ludocid=8560819786490294549&q=coffee",
+                "gps_coordinates": {
+                    "latitude": 26.352476,
+                    "longitude": 92.68832
+                }
+            }
+        ],
+        "more_locations_link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&tbm=lcl&q=coffee&rflfq=1&num=10&uule=w+CAIQICILQXNzYW0sSW5kaWE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QjGp6BAhLEAE"
+    },
+    "knowledge_graph": {
+        "title": "Coffee",
+        "type": "Beverages",
+        "entity_type": "food, kp3_verticals",
+        "kgmid": "/m/02vqfm",
+        "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/m/02vqfm&hl=en-US&q=Coffee",
+        "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F02vqfm&location=Assam%2C+India&q=Coffee",
+        "header_images": [
+            {
+                "image": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/a4f2f022b6357edf0ec370b55f80190f045b1ad9e7681b8775933675c543b8dc37d96650abe287e3.webp"
+            },
+            {
+                "image": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/a4f2f022b6357edf0ec370b55f80190f045b1ad9e7681b8701d6f83c3d48d50b64db6bf090da0a7d.webp"
+            },
+            {
+                "image": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/a4f2f022b6357edf0ec370b55f80190f045b1ad9e7681b87b2b2f1570360f117b01959b8a0e220de.webp"
+            }
+        ],
+        "sources_include": "USDAUSDAUSDAUSDAUSDAUSDAUSDACoffee1 Calories - 1 cup (8 fl oz) (237 g)",
+        "sources_include_links": [
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171890/nutrients"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171889/nutrients"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171891/nutrients"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171893/nutrients"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174134/nutrients"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/"
+            },
+            {
+                "text": "USDA",
+                "link": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174135/nutrients"
+            }
+        ],
+        "web_results": [
+            {
+                "link": "https://en.wikipedia.org/wiki/Coffee"
+            },
+            {
+                "title": "Acidity level",
+                "snippet": "4.8 and 6.0",
+                "source": "creaturecoffee.co",
+                "link": "https://creaturecoffee.co/blogs/creature-feature-a-specialty-coffee-blog/a-brief-introduction-to-coffee-acidity"
+            },
+            {
+                "title": "Color",
+                "snippet": "Black, dark brown, light brown, beige",
+                "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=coffee+color&stick=H4sIAAAAAAAAAOPgE-LUz9U3MCorTMvVEiouttIvT01KS0wuKbZKzs_JL1rEypOcn5aWmqoA5gIAL6tTPDAAAAA&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q18AJegQIPhAB"
+            }
+        ],
+        "list": {
+            "total_fat": [
+                "0 g",
+                "0%"
+            ],
+            "cholesterol": [
+                "0 mg",
+                "0%"
+            ],
+            "sodium": [
+                "5 mg",
+                "0%"
+            ],
+            "potassium": [
+                "116 mg",
+                "3%"
+            ],
+            "total_carbohydrate": [
+                "0 g",
+                "0%"
+            ],
+            "protein": [
+                "0.3 g",
+                "0%"
+            ],
+            "caffeine": [
+                "95 mg"
+            ]
+        }
+    },
+    "immersive_products": [
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f326227fc4f91f635ed883b96b742d15ed3822.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f326225cdcd492d2686e96b6a07118625b146e71cce20bed3c0936.png",
+            "source": "Bones Coffee Company",
+            "title": "Ground Bones Coffee 5 Bag Sample Pack",
+            "rating": 4.8,
+            "reviews": 11000,
+            "price": "$33.00",
+            "extracted_price": 33,
+            "delivery": "Free delivery on $75+",
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzczMzU1MzAzMjAzNjY3NzU4NCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTMzNDk3ODQ3NTQ0MjgyMTU3MzAiLCJpbWFnZURvY2lkIjoiNjM0OTk5OTM3ODA1MjkzOTY3MyIsInJkcyI6IlBDXzE0NjE1ODQ1OTU5MTc4NTY1OTAxfFBST0RfUENfMTQ2MTU4NDU5NTkxNzg1NjU5MDEiLCJxdWVyeSI6ImNvZmZlZSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzczMzU1MzAzMjAzNjY3NzU4NCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTMzNDk3ODQ3NTQ0MjgyMTU3MzAiLCJpbWFnZURvY2lkIjoiNjM0OTk5OTM3ODA1MjkzOTY3MyIsInJkcyI6IlBDXzE0NjE1ODQ1OTU5MTc4NTY1OTAxfFBST0RfUENfMTQ2MTU4NDU5NTkxNzg1NjU5MDEiLCJxdWVyeSI6ImNvZmZlZSJ9"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262299d5c4908794ce6594c0c724f0a0550e.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262281a8dea0ba736ca63268a5bd3b4dc8dcaab54eb21957ba56.png",
+            "source": "Amazon.com",
+            "title": "Starbucks Coffee Pike Place Roast",
+            "rating": 4.6,
+            "reviews": 8800,
+            "price": "$18.64",
+            "extracted_price": 18.64,
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTAzNjQ4Njc3NTcxNzA5ODUwOTUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijc5NjI4NzUxMzIwNzM5MTEwNDAiLCJpbWFnZURvY2lkIjoiNzA2MDI0MTAyNjM2NDk1NDE2MyIsInJkcyI6IlBDXzg3OTcyMTY0MjU3MjU4NjE5Mzd8UFJPRF9QQ184Nzk3MjE2NDI1NzI1ODYxOTM3IiwicXVlcnkiOiJjb2ZmZWUifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTAzNjQ4Njc3NTcxNzA5ODUwOTUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijc5NjI4NzUxMzIwNzM5MTEwNDAiLCJpbWFnZURvY2lkIjoiNzA2MDI0MTAyNjM2NDk1NDE2MyIsInJkcyI6IlBDXzg3OTcyMTY0MjU3MjU4NjE5Mzd8UFJPRF9QQ184Nzk3MjE2NDI1NzI1ODYxOTM3IiwicXVlcnkiOiJjb2ZmZWUifQ%3D%3D"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f326226c2cc184fbd3d3ff6fb074ee8b1c1ef6.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262214334adcbb0632124780cadefd8ef72f51e9fddab2710b56.png",
+            "source": "Stumptown Coffee Roasters",
+            "title": "Stumptown Coffee Roasters Homestead Blend Whole Bean Coffee",
+            "rating": 4.2,
+            "reviews": 39,
+            "price": "$16.00",
+            "extracted_price": 16,
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjM0NTU2Njk0MDUxNDIxNTM2NyIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNTk3ODM2Mzc0MTY5NjU5MjkzNSIsImltYWdlRG9jaWQiOiIxNjc4OTAyNTMyODcwMTA1MTI4NSIsInJkcyI6IlBDXzEyMDA4MjcxNzEzMTA4NzUyMDIwfFBST0RfUENfMTIwMDgyNzE3MTMxMDg3NTIwMjAiLCJxdWVyeSI6ImNvZmZlZSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNjM0NTU2Njk0MDUxNDIxNTM2NyIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiNTk3ODM2Mzc0MTY5NjU5MjkzNSIsImltYWdlRG9jaWQiOiIxNjc4OTAyNTMyODcwMTA1MTI4NSIsInJkcyI6IlBDXzEyMDA4MjcxNzEzMTA4NzUyMDIwfFBST0RfUENfMTIwMDgyNzE3MTMxMDg3NTIwMjAiLCJxdWVyeSI6ImNvZmZlZSJ9"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262226b1f138339bec682faa9ce42d7b46c0.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262230058e3afd4f37c49a7c8dde364c0531f1610941a6b69a1e.png",
+            "source": "Black Rifle Coffee Company",
+            "title": "Black Rifle Coffee Company Thirty Presents Out Roast Ground",
+            "rating": 5,
+            "reviews": 5,
+            "price": "$16.99",
+            "extracted_price": 16.99,
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg2NjM1MzMzNjQzNTcwNTcwNCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMzAyNzcxOTEzNTQ5NDg5NzUxNCIsImltYWdlRG9jaWQiOiI5NDkzNTkzNzg5NzMyOTM0MDU0IiwicmRzIjoiUENfMTM1NjI3ODMwOTk2MTcxMzAwNDN8UFJPRF9QQ18xMzU2Mjc4MzA5OTYxNzEzMDA0MyIsInF1ZXJ5IjoiY29mZmVlIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg2NjM1MzMzNjQzNTcwNTcwNCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMzAyNzcxOTEzNTQ5NDg5NzUxNCIsImltYWdlRG9jaWQiOiI5NDkzNTkzNzg5NzMyOTM0MDU0IiwicmRzIjoiUENfMTM1NjI3ODMwOTk2MTcxMzAwNDN8UFJPRF9QQ18xMzU2Mjc4MzA5OTYxNzEzMDA0MyIsInF1ZXJ5IjoiY29mZmVlIn0%3D"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622b8eae1c207db8a5c65c604a815e8e7be.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f326225b8cf10c84deffdb1600eb64049cfacd97ab5bf68bebdee7.png",
+            "source": "Walgreens.com",
+            "title": "FOLGERS Coffee Ground Classic Roast",
+            "rating": 4.6,
+            "reviews": 14000,
+            "price": "$4.99",
+            "extracted_price": 4.99,
+            "original_price": "$5",
+            "extracted_original_price": 5,
+            "returns": "Free 30-day returns",
+            "extensions": [
+                "9% OFF"
+            ],
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNjc4MTkzNTUzNzgzNzU4MDUiLCJpbWFnZURvY2lkIjoiMTM2NDgyOTYzOTk5NDM4ODIxOCIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTY5MTQ4Nzc2MjUyODA5Nzc4NjUiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6IjcxNjc4MTkzNTUzNzgzNzU4MDUiLCJpbWFnZURvY2lkIjoiMTM2NDgyOTYzOTk5NDM4ODIxOCIsInJkcyI6IlBDXzMyNDU0NzY0MDA4MzM1NTE5NDh8UFJPRF9QQ18zMjQ1NDc2NDAwODMzNTUxOTQ4IiwicXVlcnkiOiJjb2ZmZWUifQ%3D%3D"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622685c564dfd4a986b7c5e094629d957d8.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622baadf6639d55641ca02210dbd8c4a623a9e1340fa3616241.png",
+            "source": "Bones Coffee Company",
+            "title": "Bones Coffee Company Fallout Collector's Box Whole Bean",
+            "price": "$59.99",
+            "extracted_price": 59.99,
+            "delivery": "Free delivery on $75+",
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzY0MzIyMDA3MDQwMjQwODQ4OCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTEwMjc3NTk0MjY5OTE4MTcwMzIiLCJpbWFnZURvY2lkIjoiMTMyMzU4NTE0Mjk5MzI5MzgwMDIiLCJyZHMiOiIiLCJxdWVyeSI6ImNvZmZlZSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiNzY0MzIyMDA3MDQwMjQwODQ4OCIsInZjIjoiIiwidnNjIjoiIiwiaGVhZGxpbmVPZmZlckRvY2lkIjoiMTEwMjc3NTk0MjY5OTE4MTcwMzIiLCJpbWFnZURvY2lkIjoiMTMyMzU4NTE0Mjk5MzI5MzgwMDIiLCJyZHMiOiIiLCJxdWVyeSI6ImNvZmZlZSJ9"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622467e77fbf12c3574dc70dab7eb0bc87d.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622c00d9fed6fffd2ec12b6e5db9e5f04cbfef36b38ad81ac90.png",
+            "source": "Amazon",
+            "title": "Dunkin Donuts Original Blend Ground Coffee",
+            "rating": 4.7,
+            "reviews": 13000,
+            "price": "$7.99",
+            "extracted_price": 7.99,
+            "returns": "30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMxNDQ0MzkzNDMwODI3Nzc2MTAiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg1Njg3MDM3NjMwOTU5MzM4NzgiLCJpbWFnZURvY2lkIjoiNDU5MDk5OTI2ODc4NDQ5Nzc5MCIsInJkcyI6IlBDXzg0ODE1Mjc1MDUxNDQxOTQ0MDh8UFJPRF9QQ184NDgxNTI3NTA1MTQ0MTk0NDA4IiwicXVlcnkiOiJjb2ZmZWUifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiMTMxNDQ0MzkzNDMwODI3Nzc2MTAiLCJ2YyI6IiIsInZzYyI6IiIsImhlYWRsaW5lT2ZmZXJEb2NpZCI6Ijg1Njg3MDM3NjMwOTU5MzM4NzgiLCJpbWFnZURvY2lkIjoiNDU5MDk5OTI2ODc4NDQ5Nzc5MCIsInJkcyI6IlBDXzg0ODE1Mjc1MDUxNDQxOTQ0MDh8UFJPRF9QQ184NDgxNTI3NTA1MTQ0MTk0NDA4IiwicXVlcnkiOiJjb2ZmZWUifQ%3D%3D"
+        },
+        {
+            "category": "Popular products",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f3262279c97a7273c164697fb890e0e35181e3.webp",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/975bbdf733e5c378a0b36224f3f32622fae3b6af2f4ba9891ee67d6cda09f9b5822335e937eb4ae4.png",
+            "source": "Death Wish Coffee Company",
+            "title": "Death Wish Coffee Dark Roast",
+            "rating": 4.8,
+            "reviews": 6700,
+            "price": "$19.99",
+            "extracted_price": 19.99,
+            "delivery": "Free delivery on $50+",
+            "returns": "Free 30-day returns",
+            "immersive_product_page_token": "eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg0Mzk0NjI0ODMyNTY1NjM0IiwidmMiOiIiLCJ2c2MiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY0MDcyMDMxNDU3ODY2MjE1NCIsImltYWdlRG9jaWQiOiIxNzk4MTkyOTI0Nzk1MjY4MTc1OCIsInJkcyI6IlBDXzE2MTAxNTUwMjUxOTE0OTY1MTkzfFBST0RfUENfMTYxMDE1NTAyNTE5MTQ5NjUxOTMiLCJxdWVyeSI6ImNvZmZlZSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=eyJlaSI6IkIxWjlaNWFERVlmSXB0UVByZnJKLVFRIiwicHJvZHVjdGlkIjoiIiwiY2F0YWxvZ2lkIjoiOTg0Mzk0NjI0ODMyNTY1NjM0IiwidmMiOiIiLCJ2c2MiOiIiLCJoZWFkbGluZU9mZmVyRG9jaWQiOiIxNjY0MDcyMDMxNDU3ODY2MjE1NCIsImltYWdlRG9jaWQiOiIxNzk4MTkyOTI0Nzk1MjY4MTc1OCIsInJkcyI6IlBDXzE2MTAxNTUwMjUxOTE0OTY1MTkzfFBST0RfUENfMTYxMDE1NTAyNTE5MTQ5NjUxOTMiLCJxdWVyeSI6ImNvZmZlZSJ9"
+        }
+    ],
+    "related_questions": [
+        {
+            "question": "Is coffee good or bad for health?",
+            "snippet": "Yes, coffee can be good for health when consumed in moderation. It contains antioxidants, may boost cognitive function, and can enhance physical performance. However, excessive consumption can lead to negative effects like insomnia and increased heart rate.",
+            "title": "Is coffee good for health? : r/productivity",
+            "date": "Mar 14, 2024",
+            "link": "https://www.reddit.com/r/productivity/comments/1bepzv0/is_coffee_good_for_health/",
+            "displayed_link": "https://www.reddit.com › productivity › comments › is_c...",
+            "source_logo": null,
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJJcyBjb2ZmZWUgZ29vZCBvciBiYWQgZm9yIGhlYWx0aD8iLCJsayI6IkdpQnBjeUJqYjJabVpXVWdaMjl2WkNCdmNpQmlZV1FnWm05eUlHaGxZV3gwYUEiLCJicyI6ImM0V1BRUXJDTUJSRWNmdmR1QXhCMjE5UFlIT0JnSUtvRi1nNmFYNU1RUHpTQmtxdjVLMjhnRGNRckNLNnF6QXdtemN6REJ5ZzJMZFlzX2RFZUdSMnlBMWE0OUFQSHNpY1V0RGlKdFJTWXZ6RHdSYnlLcGlFcGlFc1YyanBURDZtRnRsX2dscmNwd3BsMW8xU3NBTjg5emltNzZSalRJTUNvV1hYYV9Fb1ZTSHpiaHlETlN5cUVPdUFxYl9RYi1GMXhWS2J0TGh1VkNibjNRZ3ptendCIiwiaWQiOiJmY19CMVo5WjVhREVZZklwdFFQcmZySi1RUV8yIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJJcyBjb2ZmZWUgZ29vZCBvciBiYWQgZm9yIGhlYWx0aD8iLCJsayI6IkdpQnBjeUJqYjJabVpXVWdaMjl2WkNCdmNpQmlZV1FnWm05eUlHaGxZV3gwYUEiLCJicyI6ImM0V1BRUXJDTUJSRWNmdmR1QXhCMjE5UFlIT0JnSUtvRi1nNmFYNU1RUHpTQmtxdjVLMjhnRGNRckNLNnF6QXdtemN6REJ5ZzJMZFlzX2RFZUdSMnlBMWE0OUFQSHNpY1V0RGlKdFJTWXZ6RHdSYnlLcGlFcGlFc1YyanBURDZtRnRsX2dscmNwd3BsMW8xU3NBTjg5emltNzZSalRJTUNvV1hYYV9Fb1ZTSHpiaHlETlN5cUVPdUFxYl9RYi1GMXhWS2J0TGh1VkNibjNRZ3ptendCIiwiaWQiOiJmY19CMVo5WjVhREVZZklwdFFQcmZySi1RUV8yIn0%3D"
+        },
+        {
+            "question": "What are 10 benefits of coffee?",
+            "snippet": null,
+            "title": "What health benefits does coffee offer?",
+            "link": "https://www.rush.edu/news/health-benefits-coffee",
+            "list": [
+                "Improve overall health. ... ",
+                "Protect against Type 2 diabetes. ... ",
+                "Control Parkinson's disease symptoms. ... ",
+                "Slow the progress of dementia. ... ",
+                "Safeguard the liver. ... ",
+                "Promote heart health. ... ",
+                "Reduce melanoma risk. ... ",
+                "Lower mortality risk."
+            ],
+            "displayed_link": "https://www.rush.edu › news › health-benefits-coffee",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/7e6430a33772d8ce66bb471449d3212e6c11815461dbc294277e3e0777028b47.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSAxMCBiZW5lZml0cyBvZiBjb2ZmZWU/IiwibGsiOiJHaDUzYUdGMElHRnlaU0F4TUNCaVpXNWxabWwwY3lCdlppQmpiMlptWldVIiwiYnMiOiJjNFdQUVFyQ01CUkVjZnZkdUF4QjIxOVBZSE9CZ0lLb0YtZzZhWDVNUVB6U0JrcXY1SzI4Z0RjUXJDSzZxekF3bXpjekRCeWcyTGRZc19kRWVHUjJ5QTFhNDlBUEhzaWNVdERpSnRSU1l2ekR3UmJ5S3BpRXBpRXNWMmpwVEQ2bUZ0bF9nbHJjcHdwbDFvMVNzQU44OXppbTc2UmpUSU1Db1dYWGFfRW9WU0h6Ymh5RE5TeXFFT3VBcWJfUWItRjF4VktidExodVZDYm4zUWd6bXp3QiIsImlkIjoiZmNfQjFaOVo1YURFWWZJcHRRUHJmckotUVFfMiJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSAxMCBiZW5lZml0cyBvZiBjb2ZmZWU%2FIiwibGsiOiJHaDUzYUdGMElHRnlaU0F4TUNCaVpXNWxabWwwY3lCdlppQmpiMlptWldVIiwiYnMiOiJjNFdQUVFyQ01CUkVjZnZkdUF4QjIxOVBZSE9CZ0lLb0YtZzZhWDVNUVB6U0JrcXY1SzI4Z0RjUXJDSzZxekF3bXpjekRCeWcyTGRZc19kRWVHUjJ5QTFhNDlBUEhzaWNVdERpSnRSU1l2ekR3UmJ5S3BpRXBpRXNWMmpwVEQ2bUZ0bF9nbHJjcHdwbDFvMVNzQU44OXppbTc2UmpUSU1Db1dYWGFfRW9WU0h6Ymh5RE5TeXFFT3VBcWJfUWItRjF4VktidExodVZDYm4zUWd6bXp3QiIsImlkIjoiZmNfQjFaOVo1YURFWWZJcHRRUHJmckotUVFfMiJ9"
+        },
+        {
+            "question": "What does coffee do to the body?",
+            "snippet": "The caffeine in coffee works by stimulating the central nervous system (CNS), heart, and muscles. Chlorogenic acid might affect blood vessels and how the body handles blood sugar and metabolism. People most commonly drink coffee to increase mental alertness.",
+            "title": "COFFEE: Overview, Uses, Side Effects, Precautions, Interactions, Dosing ...",
+            "link": "https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee#:~:text=The%20caffeine%20in%20coffee%20works,coffee%20to%20increase%20mental%20alertness.",
+            "displayed_link": "https://www.webmd.com › vitamins › ingredientmono-980",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/7e6430a33772d8ce66bb471449d3212e756f81989bc48ca050382043ac4b02b5.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGF0IGRvZXMgY29mZmVlIGRvIHRvIHRoZSBib2R5PyIsImxrIjoiYzVPU0w4OUlMRkZJeVU4dFZrak9UMHRMVFFXeUZVcUFLQ05WSVNrX3BSSUEiLCJicyI6ImM0V1BRUXJDTUJSRWNmdmR1QXhCMjE5UFlIT0JnSUtvRi1nNmFYNU1RUHpTQmtxdjVLMjhnRGNRckNLNnF6QXdtemN6REJ5ZzJMZFlzX2RFZUdSMnlBMWE0OUFQSHNpY1V0RGlKdFJTWXZ6RHdSYnlLcGlFcGlFc1YyanBURDZtRnRsX2dscmNwd3BsMW8xU3NBTjg5emltNzZSalRJTUNvV1hYYV9Fb1ZTSHpiaHlETlN5cUVPdUFxYl9RYi1GMXhWS2J0TGh1VkNibjNRZ3ptendCIiwiaWQiOiJmY19CMVo5WjVhREVZZklwdFFQcmZySi1RUV8yIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGF0IGRvZXMgY29mZmVlIGRvIHRvIHRoZSBib2R5PyIsImxrIjoiYzVPU0w4OUlMRkZJeVU4dFZrak9UMHRMVFFXeUZVcUFLQ05WSVNrX3BSSUEiLCJicyI6ImM0V1BRUXJDTUJSRWNmdmR1QXhCMjE5UFlIT0JnSUtvRi1nNmFYNU1RUHpTQmtxdjVLMjhnRGNRckNLNnF6QXdtemN6REJ5ZzJMZFlzX2RFZUdSMnlBMWE0OUFQSHNpY1V0RGlKdFJTWXZ6RHdSYnlLcGlFcGlFc1YyanBURDZtRnRsX2dscmNwd3BsMW8xU3NBTjg5emltNzZSalRJTUNvV1hYYV9Fb1ZTSHpiaHlETlN5cUVPdUFxYl9RYi1GMXhWS2J0TGh1VkNibjNRZ3ptendCIiwiaWQiOiJmY19CMVo5WjVhREVZZklwdFFQcmZySi1RUV8yIn0%3D"
+        },
+        {
+            "question": "Which type of coffee is best?",
+            "snippet": "Arabica – the most popular coffee type in the world High quality coffee will have a sweet taste combined with hints of chocolate, nuts and caramel.",
+            "title": "Coffee of the world: Which type to choose?",
+            "link": "https://www.coffeefriend.co.uk/blog/coffee-of-the-world-which-type-to-choose/#:~:text=Arabica%20%E2%80%93%20the%20most%20popular%20coffee%20type%20in%20the%20world&text=High%20quality%20coffee%20will%20have,of%20chocolate%2C%20nuts%20and%20caramel.",
+            "displayed_link": "https://www.coffeefriend.co.uk › blog › coffee-of-the-w...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3g7haEc8Mw6l6wLFWV4Tx4pPrxCy0dexi4lbdno4tUg&s",
+            "source_logo": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/7e6430a33772d8ce66bb471449d3212e68666d6411941d412cf043b109a93535.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGljaCB0eXBlIG9mIGNvZmZlZSBpcyBiZXN0PyIsImxrIjoiR2h4M2FHbGphQ0IwZVhCbElHOW1JR052Wm1abFpTQnBjeUJpWlhOMCIsImJzIjoiYzRXUFFRckNNQlJFY2Z2ZHVBeEIyMTlQWUhPQmdJS29GLWc2YVg1TVFQelNCa3F2NUsyOGdEY1FyQ0s2cXpBd216Y3pEQnlnMkxkWXNfZEVlR1IyeUExYTQ5QVBIc2ljVXREaUp0UlNZdnpEd1JieUtwaUVwaUVzVjJqcFRENm1GdGxfZ2xyY3B3cGwxbzFTc0FOODl6aW03NlJqVElNQ29XWFhhX0VvVlNIemJoeUROU3lxRU91QXFiX1FiLUYxeFZLYnRMaHVWQ2JuM1Fnem16d0IiLCJpZCI6ImZjX0IxWjlaNWFERVlmSXB0UVByZnJKLVFRXzIifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTa2M1U210UFpDMU1jRUpRT1VWek5sUjJWREZpZGtoRlFubHBWa0pRZDJrMmVrdDJURzFaVFVabVluaHdiM3AxV1V0U1pHSkhla1Y2TW1KWlJVUnFUWEpGVGxsTVJXaE9PREZsTVRZMVpuQlljMmREZGpKaE9ISllkVFJuV0dSZlVSSVhRakZhT1ZvMVlVUkZXV1pKY0hSUlVISm1ja290VVZFYUlrRkdXSEpGWTNGa1JIWnpSMWMwVjJWQ2JtTnZWVkZSU1Y4d1IyeEdNSFoyTTJjIiwiZmN2IjoiMyIsImVpIjoiQjFaOVo1YURFWWZJcHRRUHJmckotUVEiLCJxYyI6IkNnWmpiMlptWldVUUFIM2taREFfIiwicXVlc3Rpb24iOiJXaGljaCB0eXBlIG9mIGNvZmZlZSBpcyBiZXN0PyIsImxrIjoiR2h4M2FHbGphQ0IwZVhCbElHOW1JR052Wm1abFpTQnBjeUJpWlhOMCIsImJzIjoiYzRXUFFRckNNQlJFY2Z2ZHVBeEIyMTlQWUhPQmdJS29GLWc2YVg1TVFQelNCa3F2NUsyOGdEY1FyQ0s2cXpBd216Y3pEQnlnMkxkWXNfZEVlR1IyeUExYTQ5QVBIc2ljVXREaUp0UlNZdnpEd1JieUtwaUVwaUVzVjJqcFRENm1GdGxfZ2xyY3B3cGwxbzFTc0FOODl6aW03NlJqVElNQ29XWFhhX0VvVlNIemJoeUROU3lxRU91QXFiX1FiLUYxeFZLYnRMaHVWQ2JuM1Fnem16d0IiLCJpZCI6ImZjX0IxWjlaNWFERVlmSXB0UVByZnJKLVFRXzIifQ%3D%3D"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Coffee",
+            "link": "https://en.wikipedia.org/wiki/Coffee",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Coffee&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECBsQAQ",
+            "displayed_link": "https://en.wikipedia.org › wiki › Coffee",
+            "thumbnail": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4ef63a94d672a1dde7546d9830528c60d8.jpeg",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e42d9319cd53df40fffce736a710fa39d.png",
+            "snippet": "Coffee is a beverage brewed from roasted, ground coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, ...",
+            "snippet_highlighted_words": [
+                "Coffee",
+                "coffee",
+                "coffee"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "History",
+                        "link": "https://en.wikipedia.org/wiki/History_of_coffee"
+                    },
+                    {
+                        "title": "Coffee bean",
+                        "link": "https://en.wikipedia.org/wiki/Coffee_bean"
+                    },
+                    {
+                        "title": "Coffee preparation",
+                        "link": "https://en.wikipedia.org/wiki/Coffee_preparation"
+                    },
+                    {
+                        "title": "Coffee production",
+                        "link": "https://en.wikipedia.org/wiki/Coffee_production"
+                    }
+                ]
+            },
+            "source": "Wikipedia"
+        },
+        {
+            "position": 2,
+            "title": "Peet's Coffee | The Original Craft Coffee, Est. 1966",
+            "link": "http://www.peets.com/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.peets.com/&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFUQAQ",
+            "displayed_link": "http://www.peets.com",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMDn6K1GhcrlF3Aupt_F9Tc28pnGRn0l3ACQVNiEXIIcvIbC01HV8&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e12ad3d6b3ceb56ce45f0913189918b2a.png",
+            "snippet": "Since 1966, Peet's Coffee has sourced and offered superior coffees and teas and adhering to strict high-quality and taste standards. Shop today.",
+            "snippet_highlighted_words": [
+                "Coffee",
+                "coffees"
+            ],
+            "source": "Peet's Coffee"
+        },
+        {
+            "position": 3,
+            "title": "Starbucks Coffee Company",
+            "link": "https://www.starbucks.com/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.starbucks.com/&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFcQAQ",
+            "displayed_link": "https://www.starbucks.com",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi72fAfAv04i5K-BTUHudTQKFzEkyD86JfKiMr4rcM-KHYd1st7wAt&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e83c41653465c394647ae050350906525.png",
+            "snippet": "More than just great coffee. Explore the menu, sign up for Starbucks® Rewards, manage your gift card and more.",
+            "snippet_highlighted_words": [
+                "coffee"
+            ],
+            "source": "Starbucks"
+        },
+        {
+            "position": 4,
+            "title": "What is Coffee?",
+            "link": "https://www.ncausa.org/About-Coffee/What-is-Coffee",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ncausa.org/About-Coffee/What-is-Coffee&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFYQAQ",
+            "displayed_link": "https://www.ncausa.org › About Coffee",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9mGEiLrFPJTDgxbtySMTOc3UNvBpZhZ7IzhkzBRVYS-CBxbj9EVa&usqp=CAE&s",
+            "snippet": "Coffee traces its origin to a genus of plants known as Coffea. Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs.",
+            "snippet_highlighted_words": [
+                "Coffee"
+            ],
+            "source": "National Coffee Association"
+        },
+        {
+            "position": 5,
+            "title": "r/Coffee",
+            "link": "https://www.reddit.com/r/Coffee/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.reddit.com/r/Coffee/&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoFCIoBEAE",
+            "displayed_link": "2.3M+ followers",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82mRFMoG2kHH8U8rYpGIpHPaCGPI8fPn9I2UM2Lhlfk6omXD5WMcX&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e6c30618b688bee9b6f8898a85c925509.png",
+            "snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite coffee roasters or beans.",
+            "snippet_highlighted_words": [
+                "coffee"
+            ],
+            "sitelinks": {
+                "list": [
+                    {
+                        "title": "Pardon My Ignorance - What Makes Iced Coffee More ...",
+                        "link": "https://www.reddit.com/r/starbucks/comments/1hvsebw/pardon_my_ignorance_what_makes_iced_coffee_more/",
+                        "date": "Jan 7, 2025"
+                    },
+                    {
+                        "title": "Caribou coffee is much better than Starbucks",
+                        "link": "https://www.reddit.com/r/unpopularopinion/comments/1hvqjoo/caribou_coffee_is_much_better_than_starbucks/",
+                        "date": "Jan 7, 2025"
+                    },
+                    {
+                        "title": "Made a coffee table : r/BeginnerWoodWorking",
+                        "link": "https://www.reddit.com/r/BeginnerWoodWorking/comments/1hvh0kb/made_a_coffee_table/",
+                        "date": "Jan 6, 2025"
+                    },
+                    {
+                        "title": "Coffee (Art by @SChauvel) : r/SonicTheHedgehog",
+                        "link": "https://www.reddit.com/r/SonicTheHedgehog/comments/1hvctk5/coffee_art_by_schauvel/",
+                        "date": "Jan 6, 2025"
+                    }
+                ]
+            },
+            "source": "Reddit · r/Coffee"
+        },
+        {
+            "position": 6,
+            "title": "Counter Culture Coffee",
+            "link": "https://counterculturecoffee.com/?srsltid=AfmBOoq5k4VCVEepcZnvQgc-NP6bUXhCMu5jhnb61PmQyJr1WYMZLrHf",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://counterculturecoffee.com/%3Fsrsltid%3DAfmBOoq5k4VCVEepcZnvQgc-NP6bUXhCMu5jhnb61PmQyJr1WYMZLrHf&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFgQAQ",
+            "displayed_link": "https://counterculturecoffee.com",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJd79d2W6iFcEQt2I1FiktDLutQda4VZcq5P2F2_dX8jMqaW3kLpwH&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e324d8dac5945312c508fa43a49fe31a5.png",
+            "date": "Free 1–4 day delivery",
+            "snippet": "Counter Culture Coffee is a specialty coffee roaster sourcing exceptional single-origin and specialty coffee. Fresh-roasted coffee to your doorstep.",
+            "snippet_highlighted_words": [
+                "Coffee",
+                "coffee",
+                "coffee",
+                "coffee"
+            ],
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "free_day_delivery": "1–4"
+                    },
+                    "extensions": [
+                        "Free 1–4 day delivery"
+                    ]
+                }
+            },
+            "source": "Counter Culture Coffee"
+        },
+        {
+            "position": 7,
+            "title": "Peace Coffee | Organic, Fair Trade, Fresh Roasted in ...",
+            "link": "https://www.peacecoffee.com/?srsltid=AfmBOop_q5ASy_B9aMRDrUPtjq_cd2bHcVOc347rlZj61uZuw4nw_VpN",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.peacecoffee.com/%3Fsrsltid%3DAfmBOop_q5ASy_B9aMRDrUPtjq_cd2bHcVOc347rlZj61uZuw4nw_VpN&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFkQAQ",
+            "displayed_link": "https://www.peacecoffee.com",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEM-Ot8TtT7DG0MOIZJemzotUaImHYSzt2igwnO8iJHTNMs8nlOc88&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4ec7837a60a7341c7e1948b13fd79a6811.png",
+            "author": "Free delivery over $50",
+            "cited_by": "‎30-day returns",
+            "snippet": "Peace Coffee has been proudly roasting and pedaling outstanding fair trade and organic coffee in the Twin Cities since 1996. Certified B Corp!",
+            "snippet_highlighted_words": [
+                "Coffee",
+                "coffee"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Shop",
+                        "link": "https://www.peacecoffee.com/shop/"
+                    },
+                    {
+                        "title": "Premium Organic Coffee...",
+                        "link": "https://www.peacecoffee.com/shop/coffee/premium-coffee-concentrate/"
+                    },
+                    {
+                        "title": "Premium Coffee Concentrate",
+                        "link": "https://www.peacecoffee.com/premium-coffee-concentrate/"
+                    },
+                    {
+                        "title": "Wholesale",
+                        "link": "https://www.peacecoffee.com/wholesale/"
+                    }
+                ]
+            },
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "price": 50,
+                        "currency": "$",
+                        "day_returns": 30
+                    },
+                    "extensions": [
+                        "Free delivery over $50",
+                        "30-day returns"
+                    ]
+                }
+            },
+            "source": "Peace Coffee"
+        },
+        {
+            "position": 8,
+            "title": "Kaffe Products Quality Coffee Essentials. ...",
+            "link": "https://kaffeproducts.com/?srsltid=AfmBOordvbXYZzAZEHxR5wY79PU6IB4GjxP-RA1KhWdMkXWfyIUJlBjm",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://kaffeproducts.com/%3Fsrsltid%3DAfmBOordvbXYZzAZEHxR5wY79PU6IB4GjxP-RA1KhWdMkXWfyIUJlBjm&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFoQAQ",
+            "displayed_link": "https://kaffeproducts.com",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmHkos9ILKePUXQYddEu5GDzApkRTbLMgmSTTiPgdDAgyS_v8fyuCL&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4e9385f3b19d0dff6c60275b1e76f6632c.png",
+            "date": "4–5 day delivery",
+            "snippet": "PRODUCT CATEGORIES · Coffee Beans · Steeped Coffee Bags · Espresso & Coffee Machines · Coffee Grinders · Cold Brew Coffee Makers · Milk Frothers · French ...",
+            "snippet_highlighted_words": [
+                "Coffee",
+                "Coffee",
+                "Coffee",
+                "Coffee",
+                "Coffee"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Coffee Beans",
+                        "link": "https://kaffeproducts.com/collections/coffee-beans"
+                    },
+                    {
+                        "title": "Coffee Grinders",
+                        "link": "https://kaffeproducts.com/collections/coffee-grinders"
+                    },
+                    {
+                        "title": "Steeped Coffee Bags",
+                        "link": "https://kaffeproducts.com/collections/steeped-coffee"
+                    },
+                    {
+                        "title": "Shop All Coffee",
+                        "link": "https://kaffeproducts.com/collections/shop-all-coffee"
+                    }
+                ]
+            },
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "day_delivery": "4–5"
+                    },
+                    "extensions": [
+                        "4–5 day delivery"
+                    ]
+                }
+            },
+            "source": "Kaffe Products"
+        },
+        {
+            "position": 9,
+            "title": "The Coffee Bean & Tea Leaf | CBTL",
+            "link": "https://coffeebean.com/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://coffeebean.com/&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QFnoECFQQAQ",
+            "displayed_link": "https://coffeebean.com",
+            "favicon": "https://serpapi.com/searches/677d56040b682f570f5b4d29/images/ede6c23cebe8e5ef0322d9e9f9d99d4ed249e4332961fe98292e4dbc2d2f2aeb.png",
+            "snippet": "Born and brewed in Southern California since 1963, The Coffee Bean & Tea Leaf® is passionate about connecting loyal customers with carefully handcrafted ...",
+            "snippet_highlighted_words": [
+                "Coffee"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Store locator",
+                        "link": "https://www.coffeebean.com/store-locator"
+                    },
+                    {
+                        "title": "Coffee",
+                        "link": "https://www.coffeebean.com/cafe-menu/coffee"
+                    },
+                    {
+                        "title": "Cafe Menu",
+                        "link": "https://www.coffeebean.com/cafe-menu"
+                    },
+                    {
+                        "title": "Ground Coffee",
+                        "link": "https://store.coffeebean.com/collections/ground-coffee"
+                    }
+                ]
+            },
+            "source": "The Coffee Bean & Tea Leaf"
+        }
+    ],
+    "perspectives": [
+        {
+            "author": "r/IndiaCoffee",
+            "source": "Reddit",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpBcZiGBocXeDcluE-A2N5-RvcGUT6rpml-AdcmoXJJbRqQ-WR2Tusuoaz&usqp=CAI&s"
+            ],
+            "title": "How do you deal with bad office coffee?",
+            "link": "https://www.reddit.com/r/IndiaCoffee/comments/1hvjoi6/how_do_you_deal_with_bad_office_coffee/",
+            "date": "70+ comments"
+        },
+        {
+            "author": "logansfewd",
+            "source": "Instagram",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5-PLHmBl-uT7AU4ai2q8ChdUjmO5nEo55VcU783PPVr2OuhXJ2FVoGrfMFA&usqp=CAI&s"
+            ],
+            "title": "First whipped coffee",
+            "link": "https://www.instagram.com/logansfewd/reel/DEh1J8GR6zI/",
+            "date": "3K+ likes"
+        },
+        {
+            "author": "kirtibhoutika",
+            "source": "Instagram",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw9S94EchtppjrDgbORXckQplXepGEv8lMaySCvU58FfIK0ShFJ1SdBtMQ9A&usqp=CAI&s"
+            ],
+            "title": "Whipped Honey Coffee ☕🍯 I’ll admit it—I was skeptical. Honey with coffee? Not exactly the combo I thought I’d love. And oh. my. goodness. It completely blew my mind! The honey adds just the right amount of natural sweetness, and when whipped into that creamy, frothy magic, it’s absolutely divine. I can’t believe how good it turned out! Full recipe is in the comments below💛✨ [honey coffee, whipped coffee, creamy coffee, natural sweeteners, frothy coffee]",
+            "link": "https://www.instagram.com/kirtibhoutika/reel/DEhq4gyzBat/",
+            "date": "1.3K+ likes"
+        },
+        {
+            "author": "iamnot_elon",
+            "source": "X (Twitter)",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPpAYSPW-jjUXYq8y-xIt43dvmRP3j5bh4wWhxE4l3icvn3Vm06HCVFTinVRVMkMUIjm3C3ig&s=10"
+            ],
+            "snippet": "Time for the 𝕏 Coffee Club! What coffee are you drinking today?",
+            "link": "https://twitter.com/iamnot_elon/status/1876596207126302988?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+            "date": "5 hours ago"
+        },
+        {
+            "author": "Andrew Blok",
+            "source": "CNET",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhSoZ_oehvjGiOC9b80uHGkuPAzCGkoETJi8MIfSu&usqp=CAI&s"
+            ],
+            "title": "Best Keurig Coffee Makers for 2025",
+            "link": "https://www.cnet.com/home/kitchen-and-household/best-keurig-coffee-makers/",
+            "date": "2 weeks ago"
+        },
+        {
+            "author": "CoffeeBlackout",
+            "source": "X (Twitter)",
+            "thumbnails": [
+                "https://pbs.twimg.com/ext_tw_video_thumb/1876610110434217984/pu/img/f_4cmMMV-aSNRD1b.jpg"
+            ],
+            "snippet": "Just trying to Make Coffee Great Again 🇺🇲☕",
+            "link": "https://twitter.com/CoffeeBlackout/status/1876610268941234288?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+            "date": "4 hours ago"
+        },
+        {
+            "author": "Alexandra Lourdes",
+            "source": "TikTok",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxWxuJCvcrFzKN_GPU3j_zwxS-778td7j2BY4u9d77f9rDJNCbr8IIlPrbBA&usqp=CAI&s"
+            ],
+            "title": "“Mother what?” 😂🤭 #coffeeshop #tastetest #dayinmylife #sandiego #cof... | coffee shop",
+            "link": "https://www.tiktok.com/@alexandra_lourdes/video/7456926892101324063",
+            "date": "22.8K+ views"
+        },
+        {
+            "author": "NBTJacklyn",
+            "source": "X (Twitter)",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaIo08e_DkIfQTBjwCyuIzUj-jMRWwmWW1CTdZMHbwAcQqjBKWsTy9xGgVa1Q_tWrrZttgX3Wt&s=10"
+            ],
+            "snippet": "This is my favorite coffee shop from California!! I had no idea they have it here RESEARCH THIS AM",
+            "link": "https://twitter.com/NBTJacklyn/status/1876637665132720177?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+            "date": "2 hours ago"
+        },
+        {
+            "author": "drhamrah",
+            "source": "Instagram",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvIiql10W1rMoq4jsuWrf8Cb8t3E78eWyDV7EeMlMCco9oVexQd2ZPByPgnw&usqp=CAI&s"
+            ],
+            "title": "If you’re a coffee drinker, you owe it to yourself to wash this video! Just came back from Guatemala, where they grow the world’s best coffee and learned a lot during my coffee tour and thought it might be a great idea to share the main points with you! One of the most important things I learned is that you should never put the beans or the ground coffee in the refrigerator or freezer and you should store it at room temperature in a dark place. Also, if you open a bag of ground coffee, you should consume it within four weeks and beans within three months for best quality ! Another important point is that you only want the mild to medium roast as you will get the best taste as they typically don’t overdose good quality coffee from ripe fruits . The dark roast coffee beans are usually the lower quality coffee that they harvest which is not as ripe and therefore needs to be roasted more to bring out the flavor. The downside is it’s bitter and acidic. All right now to the video",
+            "link": "https://www.instagram.com/drhamrah/reel/DEfyHlRx2UX/",
+            "date": "11K+ likes"
+        },
+        {
+            "author": "Javier Blas",
+            "source": "Bloomberg.com",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqtdXWZKI1C4moExcd-vLIBAhnZ89xjdjUZLq-Vf3esEFjt3BbrmLM8Gbh&usqp=CAI&s"
+            ],
+            "title": "Prepare for a Bumpy Year in Coffee, Oil and Other Commodities",
+            "link": "https://www.bloomberg.com/opinion/articles/2024-12-30/prepare-for-a-bumpy-year-in-coffee-oil-and-other-commodities",
+            "date": "1 week ago"
+        },
+        {
+            "author": "PCPCoffee",
+            "source": "X (Twitter)",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Kjk9N9OkSZuw_uCr-JiwShw-MwXNixTLHEjwQsoJ9P6eAjUiyUa7TCEDVZ5nbOIBKUysUY0&s=10"
+            ],
+            "snippet": "The thing with life is, that you can try to make it a little bit better for everyone. That's what we try to do with our coffee shop. For customers, staff, and anyone who we collaborate with. To everyone who supports us, we look forward to more of the same in 2025 ❤",
+            "link": "https://twitter.com/PCPCoffee/status/1876586765164941502?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+            "date": "5 hours ago"
+        },
+        {
+            "author": "devlin_jp",
+            "source": "X (Twitter)",
+            "thumbnails": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIV3qDZpmvsmd4HaCVFdQjA3jlj22CBeUnpZa82m-Gbvkq7rz4LNKDLTR5fhKcta3ysSp88uw&s=10"
+            ],
+            "snippet": "Just paid £3 for a very bitter coffee in a trendy coffee shop. The coffee seems to be bitter in every single coffee shop I go to so, serious question, is coffee actually meant to taste bitter and is the problem therefore with me? I’m confused and off home for a cup of instant.",
+            "link": "https://twitter.com/devlin_jp/status/1876557146332266905?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+            "date": "7 hours ago"
+        }
+    ],
+    "top_stories_link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&tbm=lcl&q=coffee&rflfq=1&num=10&uule=w+CAIQICILQXNzYW0sSW5kaWE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8QjGp6BAhLEAE",
+    "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Assam%2C+India&q=coffee&uule=w+CAIQICILQXNzYW0sSW5kaWE",
+    "related_searches": [
+        {
+            "block_position": 1,
+            "query": "Coffee near me",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+near+me&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQiuARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+near+me"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee benefits",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+benefits&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQiqARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+benefits"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee brand",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+brand&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQisARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+brand"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee recipe",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+recipe&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQioARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+recipe"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee types",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+types&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQirARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+types"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee Machine",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+Machine&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQitARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+Machine"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee beans",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+beans&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQinARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+beans"
+        },
+        {
+            "block_position": 1,
+            "query": "Coffee Powder",
+            "link": "https://www.google.com/search?sca_esv=4bcf60a21566dd94&q=Coffee+Powder&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Q1QJ6BQipARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=Coffee+Powder"
+        }
+    ],
+    "refine_this_search": [
+        {
+            "query": "Whole Bean",
+            "link": "https://www.google.com/search?q=whole+bean+coffee&shoprs=GAEqBmNvZmZlZTIaCAESCldob2xlIEJlYW46Cgju_jgQ8f44MAJYt8sfYAE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAF6BAgfEGg",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=whole+bean+coffee"
+        },
+        {
+            "query": "Nearby",
+            "link": "https://www.google.com/search?q=coffee+nearby&shoprs=GAMqBmNvZmZlZTIMCAMSBk5lYXJieRgCWLfLH2AB&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAJ6BAgfEGk",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=coffee+nearby"
+        },
+        {
+            "query": "Brand",
+            "link": "https://www.google.com/search?q=brand+coffee&shoprs=GBIqBmNvZmZlZTIJCBISBUJyYW5kYAE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAN6BAgfEGo",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=brand+coffee"
+        },
+        {
+            "query": "Ground",
+            "link": "https://www.google.com/search?q=ground+coffee&shoprs=GAEqBmNvZmZlZTIWCAESBkdyb3VuZDoKCO7-OBDv_jgwAli3yx9gAQ&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAR6BAgfEGs",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=ground+coffee"
+        },
+        {
+            "query": "On sale",
+            "link": "https://www.google.com/search?q=coffee+sale&shoprs=EgRKAhgBGAYqBmNvZmZlZTITCAYSB09uIHNhbGUYAiIESgIYAVi3yx9gAQ&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAV6BAgfEGw",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=coffee+sale"
+        },
+        {
+            "query": "12 oz – 1 lb",
+            "link": "https://www.google.com/search?q=12+oz+to+1+lb+coffee&shoprs=EhoqGAj-nGUSEgkAAABgvsXVPxEAAABgqAfdPxgBKgZjb2ZmZWUySwgBEg4xMiBveiDigJMgMSBsYiIaKhgI_pxlEhIJAAAAYL7F1T8RAAAAYKgH3T8qEQoNMTIgb3ogdG8gMSBsYhgBOggI_pxlEAAwBli3yx9gAQ&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAZ6BAgfEG0",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=12+oz+to+1+lb+coffee"
+        },
+        {
+            "query": "Bag",
+            "link": "https://www.google.com/search?q=bag+coffee&shoprs=GAEqBmNvZmZlZTITCAESA0JhZzoKCIGdZRCEnWUwAFi3yx9gAQ&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAd6BAgfEG4",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=bag+coffee"
+        },
+        {
+            "query": "Get it today",
+            "link": "https://www.google.com/search?q=coffee&shoprs=Eg2aAQoKCBAAOAFAAkgBGBQqBmNvZmZlZTIlCBQSDEdldCBpdCB0b2RheSINmgEKCggQADgBQAJIASoEEAEYAWAB&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAh6BAgfEG8",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=coffee"
+        },
+        {
+            "query": "Instant",
+            "link": "https://www.google.com/search?q=instant+coffee&shoprs=GAEqBmNvZmZlZTIXCAESB0luc3RhbnQ6Cgju_jgQ8P44MAJYt8sfYAE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAl6BAgfEHA",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=instant+coffee"
+        },
+        {
+            "query": "Black",
+            "link": "https://www.google.com/search?q=black+coffee&shoprs=GAEqBmNvZmZlZTIXCAESBUJsYWNrOgwI2Iz1ARDlivUBMAtYt8sfYAE&sa=X&ved=2ahUKEwjWosLPg-SKAxUHpIkEHS19Mk8Qip4GKAp6BAgfEHE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&location=Assam%2C+India&q=black+coffee"
+        },
+		{
+    "query": "Pod",
+    "link": "https://www.google.com/search?q=pod+coffee&shoprs=GAEqBmNvZmZlZTITCAESA1BvZDoKCPucZRD8nGUwA1i3yx9gAQ&sa=X&ved=2ahUK",
+    "metadata": {
+        "id": "677d56040b682f570f5b4d29",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.json",
+        "created_at": "2025-01-07 16:27:48 UTC",
+        "processed_at": "2025-01-07 16:27:48 UTC",
+        "google_url": "https://www.google.com/search?q=coffee&oq=coffee&uule=w+CAIQICILQXNzYW0sSW5kaWE&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/20ae0898b1929af9/677d56040b682f570f5b4d29.html",
+        "total_time_taken": 3.38
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "coffee",
+        "location_requested": "Assam, India",
+        "location_used": "Assam,India",
+        "google_domain": "google.com",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "coffee",
+        "total_results": 123456
+    }
+}
+    ]
+}

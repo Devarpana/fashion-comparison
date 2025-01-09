@@ -38,7 +38,7 @@ def extract_data(data):
 
 # Main execution
 if __name__ == "__main__":
-    json_data = load_json("jj.json")  # Load your JSON file
+    json_data = load_json("dd.json")  # Load your JSON file
     extracted_data = extract_data(json_data)  # Extract relevant data
     
     # Create a DataFrame for better analysis
