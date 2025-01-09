@@ -1,16 +1,16 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
 import json
 import pandas as pd
 
-app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+# Function to load JSON
+def load_json(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        return json.load(file)
 
 # Function to extract relevant data
 def extract_data(data):
     results = []
-    print("Processing JSON data:", data)  # Debugging log
     
+    # Process shopping_results
     if "shopping_results" in data:
         for item in data["shopping_results"]:
             results.append({
@@ -21,7 +21,8 @@ def extract_data(data):
                 "source": item.get("source", ""),
                 "thumbnail": item.get("thumbnail", "")
             })
-
+    
+    # Process local_results
     if "local_results" in data and "places" in data["local_results"]:
         for place in data["local_results"]["places"]:
             results.append({
@@ -32,32 +33,19 @@ def extract_data(data):
                 "reviews": place.get("reviews", ""),
                 "thumbnail": place.get("thumbnail", "")
             })
-
-    print("Extracted Results:", results)  # Debugging log
+    
     return results
 
-
-@app.route('/upload', methods=['POST'])
-def upload_file():
-    if 'file' not in request.files:
-        return jsonify({"error": "No file uploaded"}), 400
-
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({"error": "No file selected"}), 400
-
-    try:
-        data = json.load(file)
-        extracted_data = extract_data(data)
-
-        # Print the extracted data for debugging
-        print("Extracted Data:", extracted_data)
-
-        return jsonify(extracted_data)
-    except Exception as e:
-        print("Error:", e)
-        return jsonify({"error": str(e)}), 500
-
-
+# Main execution
 if __name__ == "__main__":
-    app.run(debug=True)
+    json_data = load_json("jj.json")  # Load your JSON file
+    extracted_data = extract_data(json_data)  # Extract relevant data
+    
+    # Create a DataFrame for better analysis
+    df = pd.DataFrame(extracted_data)
+    print(df.head())  # Display the first few rows
+    print(df.columns)  # Display the column names
+
+    print(df["link"])
+
+# name , price, store, link, thumbnail, 
