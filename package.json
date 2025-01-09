@@ -1,7 +1,8 @@
 {
     "name": "chrome-extension",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
+    "type": "module",
     "scripts": {
         "start": "vite",
         "dev": "vite",
@@ -10,9 +11,13 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "20": "^3.1.9",
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
         "express": "^4.21.2",
-        "nodemon": "^3.1.9",
         "lucide-react": "^0.469.0",
+        "nodemon": "^3.1.9",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "serpapi": "^2.1.0"
@@ -34,10 +39,6 @@
     },
     "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
     "main": "eslint.config.js",
-<<<<<<< HEAD
-    "author": "Devarpana",
-=======
     "author": "",
->>>>>>> b44737c97c1b19162063644fae651d24582c0df7
     "license": "ISC"
 }
