@@ -3,7 +3,6 @@ import {getJson} from "serpapi";
 import dotenv from "dotenv";
 import path from "path";
 import {fileURLToPath} from "url";
-import SearchBar from "../components/Header/SearchBar";
 
 dotenv.config(); // To load environment variables
 
