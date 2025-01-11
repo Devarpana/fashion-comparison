@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import SearchBar from "./components/Header/SearchBar";
-import CategoryFilters from "./components/Header/CategoryFilters";
 import ProductList from "./components/Products/ProductList";
 import CouponSection from "./components/Coupons/CouponSection";
 import logo from "./assets/logo.png";
@@ -55,7 +54,6 @@ function App() {
             </header>
 
             <main className="p-4">
-                <CategoryFilters />
                 <ProductList />
                 <CouponSection />
             </main>

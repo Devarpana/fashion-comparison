@@ -1,13 +1,30 @@
+<<<<<<< HEAD
 import express from "express";
 import {getJson} from "serpapi";
 import dotenv from "dotenv";
+=======
+import express from 'express';
+import { getJson } from 'serpapi';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+>>>>>>> 2aef95d250c78590f66a798d464850ee61bb78df
 
 dotenv.config(); // To load environment variables
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Handle __dirname for ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 app.use(express.json()); // Middleware to parse JSON requests
+
+// Serve the HTML file on the root route
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../../../fashion-comparison/index.html"));
+});
 
 // Define a route to handle search requests
 app.post("/search", (req, res) => {
@@ -26,7 +43,11 @@ app.post("/search", (req, res) => {
     );
 });
 
+// Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+<<<<<<< HEAD
 console.log(`Running on http://localhost:${PORT}`);
+=======
+>>>>>>> 2aef95d250c78590f66a798d464850ee61bb78df
