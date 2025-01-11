@@ -1,8 +1,8 @@
 {
     "name": "chrome-extension",
+    "type": "module",
     "private": true,
     "version": "0.0.0",
-    
     "scripts": {
         "dev": "vite",
         "build": "vite build",
@@ -10,12 +10,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
-<<<<<<< HEAD
+        "dotenv": "^16.4.7",
         "express": "^4.21.2",
-        "nodemon": "^3.1.9",
-=======
         "lucide-react": "^0.469.0",
->>>>>>> 413dacff5039ef749bf921cd232c757f87adacb2
+        "nodemon": "^3.1.9",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
         "serpapi": "^2.1.0"
