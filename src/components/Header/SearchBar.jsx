@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import { Search } from "lucide-react";
-
-let query = ""; // Declare query outside the component for export
+import React, {useState} from "react";
+import {Search} from "lucide-react";
 
 function SearchBar() {
-    const [localQuery, setLocalQuery] = useState("");
+    const [query, setQuery] = useState("");
 
     const handleSearch = async (e) => {
         e.preventDefault();
-        if (!localQuery) return;
+        if (!query) return;
 
         try {
             const response = await fetch("http://localhost:5173/search", {
@@ -16,7 +14,7 @@ function SearchBar() {
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({ query: localQuery }), // Send the query as JSON
+                body: JSON.stringify({query}), // Send the query as JSON
             });
 
             if (!response.ok) {
@@ -31,18 +29,13 @@ function SearchBar() {
         }
     };
 
-    const handleChange = (e) => {
-        setLocalQuery(e.target.value); // Update local state
-        query = e.target.value; // Update external variable
-    };
-
     return (
         <form onSubmit={handleSearch} className="relative">
             <input
                 type="text"
                 placeholder="Search for products..."
-                value={localQuery}
-                onChange={handleChange}
+                value={query}
+                onChange={(e) => setQuery(e.target.value)} // Update query state
                 className="w-full px-4 py-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
             />
             <button type="submit" className="absolute right-3 top-2.5">
@@ -52,5 +45,4 @@ function SearchBar() {
     );
 }
 
-export { query }; // Named export for the query variable
-export default SearchBar; // Default export for the component
+export default SearchBar;

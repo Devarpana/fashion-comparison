@@ -3,34 +3,30 @@ import {getJson} from "serpapi";
 import dotenv from "dotenv";
 import path from "path";
 import {fileURLToPath} from "url";
-<<<<<<< HEAD:Backend/server.js
-import query from "../../fashion-comparison/src/components/Header/SearchBar";
-=======
->>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
 
-dotenv.config(); // To load environment variables
+dotenv.config(); // Load environment variables
 
 const app = express();
 const PORT = process.env.PORT || 5173;
 
-// Handle __dirname for ESM
 const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const __dirname = path.dirname(__filename);
 
 app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
-app.get("/", (req, res) => {
-<<<<<<< HEAD:Backend/server.js
-    res.sendFile(path.join(__dirname, "/index.html"));
-=======
-    res.sendFile(path.join(__dirname, "../../index.html"));
->>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
-});
 
 // Define a route to handle search requests
+app.use(express.static(path.join(__dirname, "../src")));
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../index.html"));
+});
 app.post("/search", (req, res) => {
-    const query = req.body.query; // Get the search query from the request body
+    const query = req.body; // Get query from request body
+
+    if (!query) {
+        return res.status(400).json({error: "Query is required."});
+    }
 
     getJson(
         {
@@ -40,9 +36,10 @@ app.post("/search", (req, res) => {
             location: "Austin, Texas", // Modify as needed
         },
         (json) => {
-            res.json(json); // Send the search results as JSON response
+            res.json(json); // Send the search results as a JSON response
         }
     );
+    console.log(query);
 });
 
 // Start the server
