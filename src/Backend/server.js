@@ -1,6 +1,6 @@
-import express from 'express';
-import { getJson } from 'serpapi';
-import dotenv from 'dotenv';
+import express from "express";
+import {getJson} from "serpapi";
+import dotenv from "dotenv";
 
 dotenv.config(); // To load environment variables
 
@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json()); // Middleware to parse JSON requests
 
 // Define a route to handle search requests
-app.post('/search', (req, res) => {
+app.post("/search", (req, res) => {
     const query = req.body.query; // Get the search query from the request body
 
     getJson(
@@ -29,4 +29,4 @@ app.post('/search', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-
+console.log(`Running on http://localhost:${PORT}`);
