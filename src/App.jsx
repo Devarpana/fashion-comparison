@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import SearchBar from "./components/Header/SearchBar";
-import CategoryFilters from "./components/Header/CategoryFilters";
 import ProductList from "./components/Products/ProductList";
 import CouponSection from "./components/Coupons/CouponSection";
 import logo from "./assets/logo.png";
@@ -25,7 +24,7 @@ function App() {
         formData.append("file", file);
 
         try {
-            const response = await fetch("http://127.0.0.1:5000/upload", {
+            const response = await fetch("http://localhost:5000/upload", {
                 method: "POST",
                 body: formData,
             });
@@ -55,7 +54,6 @@ function App() {
             </header>
 
             <main className="p-4">
-                <CategoryFilters />
                 <ProductList />
                 <CouponSection />
             </main>

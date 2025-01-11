@@ -11,7 +11,7 @@ function SearchBar() {
         if (!localQuery) return;
 
         try {
-            const response = await fetch("http://localhost:5000/search", {
+            const response = await fetch("http://localhost:5173/search", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -19,8 +19,13 @@ function SearchBar() {
                 body: JSON.stringify({ query: localQuery }), // Send the query as JSON
             });
 
+            if (!response.ok) {
+                // Handle non-200 status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
             const data = await response.json();
-            console.log(data); // Handle the response data as needed
+            console.log("Search Results:", data); // Handle the response data as needed
         } catch (error) {
             console.error("Error fetching search results:", error);
         }

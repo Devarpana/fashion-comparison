@@ -3,7 +3,10 @@ import {getJson} from "serpapi";
 import dotenv from "dotenv";
 import path from "path";
 import {fileURLToPath} from "url";
+<<<<<<< HEAD:Backend/server.js
 import query from "../../fashion-comparison/src/components/Header/SearchBar";
+=======
+>>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
 
 dotenv.config(); // To load environment variables
 
@@ -18,7 +21,11 @@ app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
 app.get("/", (req, res) => {
+<<<<<<< HEAD:Backend/server.js
     res.sendFile(path.join(__dirname, "/index.html"));
+=======
+    res.sendFile(path.join(__dirname, "../../index.html"));
+>>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
 });
 
 // Define a route to handle search requests
