@@ -1,8 +1,9 @@
 {
     "name": "chrome-extension",
-    "private": true,
-    "version": "1.0.0",
     "type": "module",
+    "private": true,
+
+    "version": "1.0.0",
     "scripts": {
         "start": "vite",
         "dev": "vite",
@@ -11,9 +12,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "20": "^3.1.9",
+   "20": "^3.1.9",
         "body-parser": "^1.20.3",
         "cors": "^2.8.5",
+
         "dotenv": "^16.4.7",
         "express": "^4.21.2",
         "lucide-react": "^0.469.0",
