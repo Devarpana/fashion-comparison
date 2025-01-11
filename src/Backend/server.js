@@ -17,9 +17,7 @@ app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
 app.get("/", (req, res) => {
-    res.sendFile(
-        path.join(__dirname, "../../../fashion-comparison/index.html")
-    );
+    res.sendFile(path.join(__dirname, "../../../chrome-extension/index.html"));
 });
 
 // Define a route to handle search requests
