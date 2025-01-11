@@ -1,7 +1,10 @@
 {
     "name": "chrome-extension",
-    "type": "module",
     "private": true,
+<<<<<<< HEAD
+    "type": "module",
+=======
+>>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6
     "version": "1.0.0",
     "scripts": {
         "start": "vite",
