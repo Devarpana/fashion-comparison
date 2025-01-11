@@ -14,7 +14,7 @@ function SearchBar() {
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({query: input}), // Send the query as JSON
+                body: JSON.stringify({query}), // Send the query as JSON
             });
 
             if (!response.ok) {

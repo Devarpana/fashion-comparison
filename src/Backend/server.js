@@ -3,6 +3,7 @@ import {getJson} from "serpapi";
 import dotenv from "dotenv";
 import path from "path";
 import {fileURLToPath} from "url";
+import SearchBar from "../components/Header/SearchBar";
 
 dotenv.config(); // To load environment variables
 
@@ -17,7 +18,7 @@ app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../chrome-extension/index.html"));
+    res.sendFile(path.join(__dirname, "/index.html"));
 });
 
 // Define a route to handle search requests
