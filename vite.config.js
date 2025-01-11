@@ -9,4 +9,13 @@ export default defineConfig({
             input: "index.html",
         },
     },
+    server: {
+        proxy: {
+            "/search": {
+                target: "http://localhost:5000",
+                changeOrigin: true,
+                secure: false,
+            },
+        },
+    },
 });
