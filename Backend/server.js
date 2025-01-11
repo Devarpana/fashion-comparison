@@ -1,27 +1,28 @@
-import express from 'express';
-import { getJson } from 'serpapi';
-import dotenv from 'dotenv';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import express from "express";
+import {getJson} from "serpapi";
+import dotenv from "dotenv";
+import path from "path";
+import {fileURLToPath} from "url";
+import query from "../../fashion-comparison/src/components/Header/SearchBar";
 
 dotenv.config(); // To load environment variables
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5173;
 
 // Handle __dirname for ESM
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const _dirname = path.dirname(_filename);
 
 app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../fashion-comparison/index.html"));
+    res.sendFile(path.join(__dirname, "/index.html"));
 });
 
 // Define a route to handle search requests
-app.post('/search', (req, res) => {
+app.post("/search", (req, res) => {
     const query = req.body.query; // Get the search query from the request body
 
     getJson(
