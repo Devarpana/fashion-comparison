@@ -1,42 +1,24 @@
-const express = require("express");
-const {getJson} = require("serpapi");
-require("dotenv").config();
-
-const cors = require("cors");
-const bodyParser = require("body-parser");
+const express = require('express');
+const { getJson } = require('serpapi');
+require('dotenv').config(); // To load environment variables
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
-app.use(cors()); // Enable CORS for all origins
-app.use(bodyParser.json()); // Parse JSON request bodies
+app.use(express.json()); // Middleware to parse JSON requests
 
 // Define a route to handle search requests
-app.post("/search", (req, res) => {
-    const query = req.body.query;
+app.post('/search', (req, res) => {
+    const query = req.body.query; // Get the search query from the request body
 
-    if (!query) {
-        return res.status(400).json({error: "Search query is required"});
-    }
-
-    getJson(
-        {
-            engine: "google",
-            api_key: process.env.SERPAPI_API_KEY,
-            q: query,
-            location: "Assam, India",
-        },
-        (error, json) => {
-            if (error) {
-                console.error("Error fetching from SerpApi:", error);
-                return res
-                    .status(500)
-                    .json({error: "Failed to fetch data from SerpApi"});
-            }
-            res.json(json);
-        }
-    );
+    getJson({
+        engine: "google",
+        api_key: process.env.SERPAPI_API_KEY, // Use your SerpApi key from .env file
+        q: query,
+        location: "Austin, Texas", // Modify as needed
+    }, (json) => {
+        res.json(json); // Send the search results as JSON response
+    });
 });
 
 app.listen(PORT, () => {
