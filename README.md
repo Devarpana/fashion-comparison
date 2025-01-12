@@ -118,20 +118,32 @@
 
 2. **Backend Packages**:
 
-    Install `lucide-react` package for using the react icons library.
-
-    ```zsh
-    npm i lucide-react
-    ```
-
-    Install `react-heart` package for using the like unlike button.
+    Install `express` package for
 
     ```bash
-    npm i react-heart
+    npm i express
     ```
 
-    Install `@faker-js/faker` package for creating random coupon codes.
+    Install `cors` package for
 
     ```bash
-    npm i @faker-js/faker
+    npm i cors
+    ```
+
+    Install `body-parser` package for
+
+    ```bash
+    npm i body-parser
+    ```
+
+    Install `serpapi` package for
+
+    ```bash
+    npm i serpapi
+    ```
+
+    Install `dotenv` package for
+
+    ```bash
+    npm i dotenv
     ```
