@@ -1,48 +1,49 @@
-import express from "express";
-import {getJson} from "serpapi";
-import dotenv from "dotenv";
-import path from "path";
-import {fileURLToPath} from "url";
-<<<<<<< HEAD:Backend/server.js
-import query from "../../fashion-comparison/src/components/Header/SearchBar";
-=======
->>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
+import express from 'express';
+import { GoogleSearch } from 'google-search-results-nodejs'; // Ensure you're using the correct import
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import cors from 'cors'; // Import CORS
 
-dotenv.config(); // To load environment variables
-
-const app = express();
-const PORT = process.env.PORT || 5173;
+dotenv.config(); // Load environment variables
 
 // Handle __dirname for ESM
 const __filename = fileURLToPath(import.meta.url);
-const _dirname = path.dirname(_filename);
+const __dirname = path.dirname(__filename);
 
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Enable CORS
+app.use(cors());
 app.use(express.json()); // Middleware to parse JSON requests
 
 // Serve the HTML file on the root route
 app.get("/", (req, res) => {
-<<<<<<< HEAD:Backend/server.js
-    res.sendFile(path.join(__dirname, "/index.html"));
-=======
-    res.sendFile(path.join(__dirname, "../../index.html"));
->>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6:src/Backend/server.js
+    res.sendFile(path.join(__dirname, "../index.html"));
 });
 
-// Define a route to handle search requests
-app.post("/search", (req, res) => {
+// Define a route to handle search requests for Google Shopping
+app.post('/search', async (req, res) => {
     const query = req.body.query; // Get the search query from the request body
 
-    getJson(
-        {
-            engine: "google",
-            api_key: process.env.SERPAPI_API_KEY, // Use your SerpApi key from .env file
-            q: query,
-            location: "Austin, Texas", // Modify as needed
-        },
-        (json) => {
-            res.json(json); // Send the search results as JSON response
-        }
-    );
+    const search = new GoogleSearch(process.env.SERPAPI_API_KEY); // Initialize with API key
+
+    const params = {
+        engine: "google_product", // Use Google Shopping engine
+        q: query, // The search query received from frontend
+        hl: "en", // Language
+        gl: "us", // Country code
+        device: "desktop", // Device type (desktop, tablet, mobile)
+    };
+
+    try {
+        const result = await search.json(params); // Fetch results
+        res.json(result); // Send the search results as JSON response
+    } catch (error) {
+        console.error("Error fetching search results:", error);
+        res.status(500).json({ error: "Failed to fetch search results" }); // Send error response
+    }
 });
 
 // Start the server

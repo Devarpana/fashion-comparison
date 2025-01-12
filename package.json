@@ -1,10 +1,7 @@
 {
     "name": "chrome-extension",
     "private": true,
-<<<<<<< HEAD
     "type": "module",
-=======
->>>>>>> 6edbaecc4f08150960e7750be497b01f107657c6
     "version": "1.0.0",
     "scripts": {
         "start": "vite",
@@ -19,6 +16,7 @@
         "cors": "^2.8.5",
         "dotenv": "^16.4.7",
         "express": "^4.21.2",
+        "google-search-results-nodejs": "^2.1.0",
         "lucide-react": "^0.469.0",
         "nodemon": "^3.1.9",
         "react": "^18.3.1",

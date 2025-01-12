@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Search } from "lucide-react";
 
-let query = ""; // Declare query outside the component for export
-
 function SearchBar() {
     const [localQuery, setLocalQuery] = useState("");
 
@@ -11,7 +9,7 @@ function SearchBar() {
         if (!localQuery) return;
 
         try {
-            const response = await fetch("http://localhost:5173/search", {
+            const response = await fetch("http://localhost:5000/search", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -33,7 +31,6 @@ function SearchBar() {
 
     const handleChange = (e) => {
         setLocalQuery(e.target.value); // Update local state
-        query = e.target.value; // Update external variable
     };
 
     return (
@@ -52,5 +49,4 @@ function SearchBar() {
     );
 }
 
-export { query }; // Named export for the query variable
 export default SearchBar; // Default export for the component
