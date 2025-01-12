@@ -10,9 +10,15 @@ function CouponSection() {
                 Available Coupons
             </h2>
             <div className="mt-3 space-y-3">
-                {mockCoupons.map((coupon) => (
-                    <CouponCard key={coupon.id} coupon={coupon} />
-                ))}
+                {mockCoupons.length > 0 ? (
+                    mockCoupons.map((coupon) => (
+                        <CouponCard key={coupon.id} coupon={coupon} />
+                    ))
+                ) : (
+                    <p className="text-sm text-gray-600">
+                        No coupons are currently available. Check back later!
+                    </p>
+                )}
             </div>
         </div>
     );
