@@ -93,3 +93,21 @@
     1. Open Chrome and go to `chrome://extensions/`.
     2. Enable "Developer mode" by toggling the switch in the top-right corner.
     3. Click on Load unpacked and select the dist folder from your project directory.
+
+## **Step 5: Install Required Packages**
+
+1. **Frontend Packages**:
+
+    ```bash
+    npm i lucide-react
+    ```
+
+    ```bash
+    npm i react-heart
+    ```
+
+    ```bash
+    npm i @faker-js/faker
+    ```
+
+2. **Backend Packages**:
