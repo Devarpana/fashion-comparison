@@ -7,7 +7,6 @@ import cors from 'cors'; // Import CORS
 
 dotenv.config(); // Load environment variables
 
-// Handle __dirname for ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -18,8 +17,9 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json()); // Middleware to parse JSON requests
 
-// Serve the HTML file on the root route
+// Define a route to handle search requests
 app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "../index.html"));
     res.sendFile(path.join(__dirname, "../index.html"));
 });
 
@@ -46,7 +46,7 @@ app.post('/search', async (req, res) => {
     }
 });
 
-// Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+

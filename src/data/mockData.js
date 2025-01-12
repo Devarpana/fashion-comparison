@@ -1,3 +1,5 @@
+import {faker} from "@faker-js/faker";
+
 export const mockProducts = [
     {
         id: 1,
@@ -17,19 +19,12 @@ export const mockProducts = [
     },
 ];
 
-export const mockCoupons = [
-    {
-        id: 1,
-        code: "SUMMER25",
-        discount: "25% OFF",
-        store: "Nordstrom",
-        validUntil: "2024-06-30",
-    },
-    {
-        id: 2,
-        code: "FLASH50",
-        discount: "50% OFF",
-        store: "Macy's",
-        validUntil: "2024-04-15",
-    },
-];
+const generateCouponCode = () => faker.string.alphanumeric(8).toUpperCase();
+
+export const mockCoupons = mockProducts.map((product) => ({
+    id: product.id,
+    code: generateCouponCode(),
+    discount: `${faker.number.int({min: 10, max: 50})}% OFF`,
+    store: product.store,
+    validUntil: faker.date.future().toISOString().split("T")[0],
+}));

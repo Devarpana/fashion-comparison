@@ -1,5 +1,6 @@
 import {useState} from "react";
-import {ExternalLink, Heart} from "lucide-react";
+import {ExternalLink} from "lucide-react";
+import Heart from "react-heart";
 
 function ProductCard({product}) {
     const {name, price, originalPrice, store, image} = product;
@@ -11,6 +12,8 @@ function ProductCard({product}) {
     const toggleFavorite = () => {
         setIsFavorite(!isFavorite);
     };
+
+    const [active, setActive] = useState(false);
 
     return (
         <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-3">
@@ -24,10 +27,9 @@ function ProductCard({product}) {
                     <div className="flex items-start justify-between">
                         <h3 className="font-medium text-gray-800">{name}</h3>
                         <Heart
-                            className={`w-5 h-5 cursor-pointer ${
-                                isFavorite ? "text-red-500" : "text-gray-400"
-                            }`}
-                            onClick={toggleFavorite}
+                            isActive={active}
+                            onClick={() => setActive(!active)}
+                            className="h-4 mt-2"
                         />
                     </div>
                     <p className="text-sm text-gray-500">{store}</p>
