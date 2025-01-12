@@ -17,7 +17,6 @@ app.use(express.json()); // Middleware to parse JSON requests
 // Serve the HTML file on the root route
 
 // Define a route to handle search requests
-app.use(express.static(path.join(__dirname, "../src")));
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../index.html"));
 });
@@ -30,16 +29,15 @@ app.post("/search", (req, res) => {
 
     getJson(
         {
-            engine: "google",
+            engine: "google_shopping",
             api_key: process.env.SERPAPI_API_KEY, // Use your SerpApi key from .env file
-            q: query,
+            q: "saree",
             location: "Austin, Texas", // Modify as needed
         },
         (json) => {
             res.json(json); // Send the search results as a JSON response
         }
     );
-    console.log(query);
 });
 
 // Start the server
