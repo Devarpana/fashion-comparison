@@ -90,6 +90,6 @@
 
 2.  **Load the extension in Chrome**:
 
-    i. Open Chrome and go to `chrome://extensions/`.
-    ii. Enable "Developer mode" by toggling the switch in the top-right corner.
-    iii. Click on Load unpacked and select the dist folder from your project directory.
+    1. Open Chrome and go to `chrome://extensions/`.
+    2. Enable "Developer mode" by toggling the switch in the top-right corner.
+    3. Click on Load unpacked and select the dist folder from your project directory.
