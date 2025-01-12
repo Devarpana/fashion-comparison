@@ -100,7 +100,7 @@
 
     Install `lucide-react` package for using the react icons library.
 
-    ```bash
+    ```zsh
     npm i lucide-react
     ```
 
