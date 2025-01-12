@@ -6,24 +6,21 @@ function SearchBar() {
 
     const handleSearch = async (e) => {
         e.preventDefault();
-        if (!query) return;
-
         try {
             const response = await fetch("http://localhost:5173/search", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({query}), // Send the query as JSON
+                body: JSON.stringify({query}),
             });
 
             if (!response.ok) {
-                // Handle non-200 status codes
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
 
             const data = await response.json();
-            console.log("Search Results:", data); // Handle the response data as needed
+            console.log("Response from server:", data.message);
         } catch (error) {
             console.error("Error fetching search results:", error);
         }
@@ -35,7 +32,7 @@ function SearchBar() {
                 type="text"
                 placeholder="Search for products..."
                 value={query}
-                onChange={(e) => setQuery(e.target.value)} // Update query state
+                onChange={(e) => setQuery(e.target.value)}
                 className="w-full px-4 py-2 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
             />
             <button type="submit" className="absolute right-3 top-2.5">
