@@ -1,49 +1,52 @@
-import express from "express";
-import cors from "cors";
-import bodyParser from "body-parser";
-import {getJson} from "serpapi";
-import dotenv from "dotenv";
-import path from "path";
-import {fileURLToPath} from "url";
+import express from 'express';
+import { GoogleSearch } from 'google-search-results-nodejs'; // Ensure you're using the correct import
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import cors from 'cors'; // Import CORS
 
 dotenv.config(); // Load environment variables
-
-const app = express();
-const PORT = process.env.PORT || 5173;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Middleware
+const app = express();
+const PORT = process.env.PORT || 5000;
+
+// Enable CORS
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json()); // Middleware to parse JSON requests
 
 // Define a route to handle search requests
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "../index.html"));
+    res.sendFile(path.join(__dirname, "../index.html"));
 });
 
-app.post("/search", (req, res) => {
-    const query = req.body.query;
+// Define a route to handle search requests for Google Shopping
+app.post('/search', async (req, res) => {
+    const query = req.body.query; // Get the search query from the request body
 
-    console.log("Search query received:", query);
-    // if (!query) {
-    //     return res.status(400).json({error: "Query is required."});
-    // }
+    const search = new GoogleSearch(process.env.SERPAPI_API_KEY); // Initialize with API key
 
-    // getJson(
-    //     {
-    //         engine: "google_shopping",
-    //         api_key: process.env.SERPAPI_API_KEY,
-    //         q: "saree",
-    //         location: "Austin, Texas",
-    //     },
-    //     (json) => {
-    //         res.json(json);
-    //     }
-    // );
+    const params = {
+        engine: "google_product", // Use Google Shopping engine
+        q: query, // The search query received from frontend
+        hl: "en", // Language
+        gl: "us", // Country code
+        device: "desktop", // Device type (desktop, tablet, mobile)
+    };
+
+    try {
+        const result = await search.json(params); // Fetch results
+        res.json(result); // Send the search results as JSON response
+    } catch (error) {
+        console.error("Error fetching search results:", error);
+        res.status(500).json({ error: "Failed to fetch search results" }); // Send error response
+    }
 });
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
