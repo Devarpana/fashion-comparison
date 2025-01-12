@@ -98,13 +98,19 @@
 
 1. **Frontend Packages**:
 
+    Install lucide-react package for using the react icons library.
+
     ```bash
     npm i lucide-react
     ```
 
+    Install react-heart package for using the like unlike button.
+
     ```bash
     npm i react-heart
     ```
+
+    Install @faker-js/faker package for creating random coupon codes.
 
     ```bash
     npm i @faker-js/faker
