@@ -44,3 +44,52 @@
     @tailwind components;
     @tailwind utilities;
     ```
+
+## **Step 3: Configure manifest.json File**
+
+1.  **Create a manifest.json file in the public folder**:
+
+    ```json
+    {
+        "manifest_version": 3,
+        "name": "My Chrome Extension",
+        "version": "1.0",
+        "description": "A Chrome extension built with React and Vite",
+        "action": {
+            "default_popup": "index.html",
+            "default_icon": "icon.png"
+        },
+        "permissions": [],
+        "host_permissions": []
+    }
+    ```
+
+2.  **Update Vite Config**:
+    Add the publicDir property in vite.config.js to include manifest.json in the build:
+
+    ```javascript
+    import {defineConfig} from "vite";
+    import react from "@vitejs/plugin-react";
+
+    export default defineConfig({
+        plugins: [react()],
+        build: {
+            outDir: "dist",
+        },
+        publicDir: "public",
+    });
+    ```
+
+## **Step 4: Build and Load in Chrome Extension**
+
+1.  **Build the project**:
+
+    ```bash
+    npm run build
+    ```
+
+2.  **Load the extension in Chrome**:
+
+    i. Open Chrome and go to `chrome://extensions/`.
+    ii. Enable "Developer mode" by toggling the switch in the top-right corner.
+    iii. Click on Load unpacked and select the dist folder from your project directory.
